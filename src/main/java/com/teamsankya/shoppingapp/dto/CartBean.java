@@ -1,4 +1,4 @@
-package com.teamsankya.shoppingcart.dto;
+package com.teamsankya.shoppingapp.dto;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

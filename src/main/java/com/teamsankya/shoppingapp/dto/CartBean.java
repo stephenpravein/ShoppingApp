@@ -41,4 +41,11 @@ public class CartBean {
 		this.price = price;
 	}
 
+	@Override
+	public String toString() {
+		return "CartBean [productid=" + productid + ", productname=" + productname + ", price=" + price + "]";
+	}
+	
+	
+
 }

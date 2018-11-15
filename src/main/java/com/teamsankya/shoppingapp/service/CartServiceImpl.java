@@ -7,4 +7,13 @@ import com.teamsankya.shoppingapp.dao.CartDAO;
 public class CartServiceImpl {
 	@Autowired
 	private CartDAO cartDAO;
+
+	public CartDAO getCartDAO() {
+		return cartDAO;
+	}
+
+	public void setCartDAO(CartDAO cartDAO) {
+		this.cartDAO = cartDAO;
+	}
+	
 }

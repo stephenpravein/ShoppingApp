@@ -7,4 +7,13 @@ import com.teamsankya.shoppingapp.service.CartService;
 public class CartController {
 	@Autowired
 	private CartService cartService;
+
+	public CartService getCartService() {
+		return cartService;
+	}
+
+	public void setCartService(CartService cartService) {
+		this.cartService = cartService;
+	}
+	
 }

@@ -15,5 +15,5 @@ public class CartServiceImpl {
 	public void setCartDAO(CartDAO cartDAO) {
 		this.cartDAO = cartDAO;
 	}
-	
+
 }

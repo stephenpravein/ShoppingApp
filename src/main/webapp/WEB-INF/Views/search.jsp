@@ -191,12 +191,13 @@ function autocomplete(inp, arr) {
 }
 
 /*An array containing all the country names in the world:*/
-var items = ["Toys","Cars","Pens","Water Bottles","Keychains"];
+var items = ["Tea Cups","Toys","Mobiles","Clothes","Glasses","Cars","Pens","Water Bottles","Keychains"];
 /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
 autocomplete(document.getElementById("myInput"), items);
 </script>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
+
 <footer>
 	<p><h2>Shopping App : Team Sankya Group &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

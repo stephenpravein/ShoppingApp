@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Home Page</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -69,11 +69,12 @@ body {
 .topnav .search-container button:hover {
 	background: #ccc;
 }
+
 footer {
-    background-color: #777;
-    padding: 7px;
-    text-align: center;
-    color: white;
+	background-color: #777;
+	padding: 7px;
+	text-align: center;
+	color: white;
 }
 
 @media screen and (max-width: 600px) {
@@ -100,10 +101,10 @@ footer {
 			<h1>Shopping App</h1>
 		</marquee>
 	</header>
-	<div class="topnav" >
+	<div class="topnav">
 		<a class="active" href="#home">Home</a> <a href="about.jsp">About</a>
 		<a href="contact.jsp">Contact</a>
-		<div class="search-container" >
+		<div class="search-container">
 			<form action="">
 				<input type="text" placeholder="Search Something Here..."
 					name="search">
@@ -115,42 +116,32 @@ footer {
 	</div>
 	<div style="padding-left: 16px"></div>
 	<br>
-	<div class="images">
-	<img src="D://Images/m1.jpg" width="180"
-		height="180"  hspace="15">
-	<img src="/ShoppingApp/src/main/webapp/Images/m2.jpg" width="180"
-		height="180" hspace="15">
-	<img src="/ShoppingApp/src/main/webapp/Images/m3.jpg" width="180"
-		height="180" hspace="15">
-	<img src="/ShoppingApp/src/main/webapp/Images/m4.jpg" width="180"
-		height="180" hspace="15">
-	<img src="/ShoppingApp/src/main/webapp/Images/m5.jpg" width="180"
-		height="180" hspace="15">
-		<img src="/ShoppingApp/src/main/webapp/Images/m6.jpg" width="180"
-		height="180" hspace="15">
-	<br><br>
-	
-	<img src="/ShoppingApp/src/main/webapp/Images/m7.jpg" width="180"
-		height="180" hspace="15">
-	<img src="/ShoppingApp/src/main/webapp/Images/m8.jpg" width="180"
-		height="180" hspace="15">
-	<img src="/ShoppingApp/src/main/webapp/Images/m9.jpg" width="180"
-		height="180" hspace="15">
-	<img src="/ShoppingApp/src/main/webapp/Images/m10.jpg" width="180"
-		height="180" hspace="15">
-		<img src="/ShoppingApp/src/main/webapp/Images/m11.jpg" width="180"
-		height="180" hspace="15">
-		<img src="/ShoppingApp/src/main/webapp/Images/m12.jpg" width="180"
-		height="180" hspace="15">
-		</div>
-		<br>
+	<div>Images</div>
+	<img src="m1.jpg" width="180" height="180" hspace="15">
+	<img src="m2.jpg" width="180" height="180" hspace="15">
+	<img src="m3.jpg" width="180" height="180" hspace="15">
+	<img src="m4.jpg" width="180" height="180" hspace="15">
+	<img src="D://Images/m5.jpg" width="180" height="180" hspace="15">
+	<img src="D:\\Images\m6.jpg" width="180" height="180" hspace="15">
+	<br>
+	<br>
+	<img src="/Images/m7.jpg" width="180" height="180" hspace="15">
+	<img src="D:\Images\m8.jpg" width="180" height="180" hspace="15">
+	<img src="D:\\Images\\m9.jpg" width="180" height="180" hspace="15">
+	<img src="D:/Images/m10.jpg" width="180" height="180" hspace="15">
+	<img src="m11.jpg" width="180" height="180" hspace="15">
+	<img src="m12.jpg" width="180" height="180" hspace="15">
+	</div>
+	<br>
 </body>
 
 <footer>
-	<p><h2>Shopping App : Team Sankya Group &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		    Email: helpdesk@shoppingapp.com</h2>
+	<p>
+	<h2>Shopping App : Team Sankya Group
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email:
+		helpdesk@shoppingapp.com</h2>
 	</p>
 </footer>
 </html>

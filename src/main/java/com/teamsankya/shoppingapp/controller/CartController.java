@@ -1,11 +1,12 @@
 package com.teamsankya.shoppingapp.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.teamsankya.shoppingapp.service.CartService;
 
+@Controller
 public class CartController {
-	@Autowired
 	private CartService cartService;
 
 	public CartService getCartService() {
@@ -15,5 +16,9 @@ public class CartController {
 	public void setCartService(CartService cartService) {
 		this.cartService = cartService;
 	}
-	
+
+	@RequestMapping("/")
+	public String index() {
+		return "index";
+	}
 }

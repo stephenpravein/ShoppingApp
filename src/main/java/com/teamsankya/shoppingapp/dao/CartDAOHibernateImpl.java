@@ -14,6 +14,5 @@ public class CartDAOHibernateImpl {
 	public void setSessionFactory(SessionFactory sessionFactory) {
 		this.sessionFactory = sessionFactory;
 	}
-	
-	
+
 }

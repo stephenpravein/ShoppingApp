@@ -1,9 +1,14 @@
 package com.teamsankya.shoppingapp.dao;
 
+import java.util.List;
+
+import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class CartDAOHibernateImpl {
+import com.teamsankya.shoppingapp.dto.CartBean;
+
+public class CartDAOHibernateImpl implements CartDAO {
 	@Autowired
 	private SessionFactory sessionFactory;
 
@@ -13,6 +18,18 @@ public class CartDAOHibernateImpl {
 
 	public void setSessionFactory(SessionFactory sessionFactory) {
 		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public List<CartBean> getProducts(String id) {
+		CartBean bean;
+		try {
+			bean = sessionFactory.getCurrentSession().get(CartBean.class, id);
+		} catch (HibernateException e) {
+			bean = sessionFactory.openSession().get(CartBean.class, id);
+		}
+
+		return (List<CartBean>) bean;
 	}
 
 }

@@ -16,15 +16,16 @@
 	<context:component-scan
 		base-package="com.teamsankya.shoppingapp" />
 	<mvc:annotation-driven />
+	<mvc:resources location="/Resources/" mapping="/WEB-INF/Resources/*"/>
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/Views/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
-	<!-- <bean class="com.teamsankya.shoppingapp.service.CartServiceImpl"
+	 <bean class="com.teamsankya.shoppingapp.service.CartServiceImpl"
 		name="service" />
 	<bean class="com.teamsankya.shoppingapp.dao.CartDAOHibernateImpl"
-		name="dao" /> -->
+		name="dao" />
 	<mvc:annotation-driven />
 	<bean id="dataSource"
 		class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">

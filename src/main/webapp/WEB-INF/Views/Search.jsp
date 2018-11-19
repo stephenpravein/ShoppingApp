@@ -80,7 +80,7 @@ footer {
 			<h1>Shopping App</h1>
 		</marquee>
 	</header>
-
+<h1>Products are :${cartBean}</h1>
 <!--Make sure the form has the autocomplete function switched off:-->
 <form autocomplete="off" action="SearchResults.jsp">
   <center><div class="autocomplete" style="width:300px;">

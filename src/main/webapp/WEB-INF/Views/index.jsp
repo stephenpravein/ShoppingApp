@@ -105,7 +105,7 @@ footer {
 		<a class="active" href="#home">Home</a> <a href="about.jsp">About</a>
 		<a href="contact.jsp">Contact</a>
 		<div class="search-container">
-			<form action="">
+			<form action="getid" method="get">
 				<input type="text" placeholder="Search Something Here..."
 					name="search">
 				<button type="submit">
@@ -116,8 +116,7 @@ footer {
 	</div>
 	<div style="padding-left: 16px"></div>
 	<br>
-	<div>Images</div>
-	<img src="m1.jpg" width="180" height="180" hspace="15">
+	<img src="/ShoppingApp/src/main/webapp/Resources/Images/m1.jpg" width="180" height="180" hspace="15">
 	<img src="m2.jpg" width="180" height="180" hspace="15">
 	<img src="m3.jpg" width="180" height="180" hspace="15">
 	<img src="m4.jpg" width="180" height="180" hspace="15">
